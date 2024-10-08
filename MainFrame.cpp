@@ -41,7 +41,7 @@ void MyFrame::OnQuit(wxCommandEvent& WXUNUSED(event)) {
 
 // Event handler for Edit menu item
 void MyFrame::OnEdit(wxCommandEvent& WXUNUSED(event)) {
-    wxMessageBox("Edit feature is under construction.", "Edit", wxOK | wxICON_INFORMATION);
+    wxMessageBox("Edit feature is under construction.", "Edit", wxOK | wxICON_AUTH_NEEDED);  // wxICON_INFORMATION);
 }
 
 // Event handler for Help menu item
