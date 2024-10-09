@@ -1,0 +1,3 @@
+[submodule "project_intern"]
+	path = project_intern
+	url = https://github.com/CoQuarksdeCpp/project_intern.git
